@@ -1,0 +1,70 @@
+schema = 3
+
+[mod]
+  [mod.'github.com/corentings/chess/v2']
+    version = 'v2.6.0'
+    hash = 'sha256-XciQNvtgM1v6ozO7HuY8w1N+0DZjDR2C6uAytXdZyVM='
+
+  [mod.'github.com/davecgh/go-spew']
+    version = 'v1.1.2-0.20180830191138-d8f796af33cc'
+    hash = 'sha256-fV9oI51xjHdOmEx6+dlq7Ku2Ag+m/bmbzPo6A4Y74qc='
+
+  [mod.'github.com/ebitengine/gomobile']
+    version = 'v0.0.0-20260820040257-d11f821a26a6'
+    hash = 'sha256-DWNdgaWKOsCDWg1DBY+Z+AL6YumbCb2LKVZHNj92SX8='
+
+  [mod.'github.com/ebitengine/hideconsole']
+    version = 'v1.0.0'
+    hash = 'sha256-YeOXzCqLsTJssPGMgp56Fe1YDRd7RIkyHywr7/5rBRs='
+
+  [mod.'github.com/ebitengine/purego']
+    version = 'v0.11.0'
+    hash = 'sha256-JjleZ8TbDFCUrV2whfa/utBtz/xnGiLx3LcC+VemN2U='
+
+  [mod.'github.com/ebitenui/ebitenui']
+    version = 'v0.7.3'
+    hash = 'sha256-Gq8Igjos/KSCE+Gl9wF2kHhMx7f1YAD5dTgqRhLAnlQ='
+
+  [mod.'github.com/frustra/bbcode']
+    version = 'v0.0.0-20201127003707-6ef347fbe1c8'
+    hash = 'sha256-6nFSZTYbx1Qtd8NmUZ3pFjYtoxS02vqUXFL/BeCFs+w='
+
+  [mod.'github.com/go-text/typesetting']
+    version = 'v0.3.5'
+    hash = 'sha256-sftokwRceI8TBT2XWPHtYh1brxxG9l2SmV6wopXxGLM='
+
+  [mod.'github.com/hajimehoshi/ebiten/v2']
+    version = 'v2.10.5'
+    hash = 'sha256-gGCXFrI6jJ56JJ1adkjPjSdslZUsieXzjwMXmgQS5Bk='
+
+  [mod.'github.com/pmezard/go-difflib']
+    version = 'v1.0.1-0.20181226105442-5d4384ee4fb2'
+    hash = 'sha256-XA4Oj1gdmdV/F/+8kMI+DBxKPthZ768hbKsO3d9Gx90='
+
+  [mod.'github.com/srwiley/rasterx']
+    version = 'v0.0.0-20220730225603-2ab79fcdd4ef'
+    hash = 'sha256-/XmSE/J+f6FLWXGvljh6uBK71uoCAK3h82XQEQ1Ki68='
+
+  [mod.'github.com/stretchr/testify']
+    version = 'v1.11.1'
+    hash = 'sha256-sWfjkuKJyDllDEtnM8sb/pdLzPQmUYWYtmeWz/5suUc='
+
+  [mod.'golang.org/x/exp']
+    version = 'v0.0.0-20250305212735-054e65f0b394'
+    hash = 'sha256-Vgt/CNx/xJYxiKKu0PI7ZSiL/SOfXI4di3Mcyge3aw4='
+
+  [mod.'golang.org/x/image']
+    version = 'v0.45.0'
+    hash = 'sha256-oI6UVl+gAcEpXHFszh8P8WvOZ6Ob41982Op9/CBwyjs='
+
+  [mod.'golang.org/x/sync']
+    version = 'v0.23.0'
+    hash = 'sha256-nF8YZFVC+TitjkderlqgGwJkuMqJCxI+fIElVLjBT2M='
+
+  [mod.'golang.org/x/sys']
+    version = 'v0.48.0'
+    hash = 'sha256-u+LwI76YIeg1asQKZItD2mnL4Yvx8veLhBuL8wv60Ls='
+
+  [mod.'golang.org/x/text']
+    version = 'v0.42.0'
+    hash = 'sha256-bviKbNmkN4Yf2dpgwmP6yNcZEakCcv1R+YyAxCdJGkY='

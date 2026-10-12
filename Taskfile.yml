@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+
+version: '3'
+
+vars:
+
+tasks:
+  default:
+    desc: Run the application
+    cmds:
+      - echo "Running Cheddar"
+      - go run cmd/cheddar/main.go
+    silent: false
+  build:
+    desc: Build the application
+    cmds:
+      - echo "Building Cheddar"
+      - go build cmd/cheddar/main.go
