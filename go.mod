@@ -3,14 +3,15 @@ module github.com/wasituf/cheddar
 go 1.26.8
 
 require (
+	github.com/atotto/clipboard v0.1.4
 	github.com/corentings/chess/v2 v2.6.0
 	github.com/ebitenui/ebitenui v0.7.3
 	github.com/hajimehoshi/ebiten/v2 v2.10.5
+	github.com/sagelyone/ebitsvg v0.2.0
 	golang.org/x/image v0.45.0
 )
 
 require (
-	github.com/atotto/clipboard v0.1.4 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/ebitengine/gomobile v0.0.0-20260820040257-d11f821a26a6 // indirect
 	github.com/ebitengine/hideconsole v1.0.0 // indirect

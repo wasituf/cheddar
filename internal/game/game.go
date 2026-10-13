@@ -1,6 +1,8 @@
 package game
 
-import chess "github.com/corentings/chess/v2"
+import (
+	chess "github.com/corentings/chess/v2"
+)
 
 type Game struct {
 	State *chess.Game
@@ -51,4 +53,50 @@ func (g *Game) GoToEnd() {
 			break
 		}
 	}
+}
+
+func (g *Game) GetPieceFromMove(m *chess.Move) chess.Piece {
+	if m == nil || m.Parent() == nil {
+		return chess.NoPiece
+	}
+
+	p := m.Parent().Position().Board().Piece(m.S1())
+
+	return p
+}
+
+func (g *Game) GetLatestMove() *chess.Move {
+	if g.State.IsAtStart() {
+		return nil
+	}
+
+	moves := g.State.Moves()
+	ply := g.Position().Ply() - 1
+
+	var move *chess.Move
+	for _, m := range moves {
+		if m.Ply() == ply {
+			move = m
+		}
+	}
+
+	return move
+}
+
+func (g *Game) GetNextMove() *chess.Move {
+	if g.State.IsAtEnd() {
+		return nil
+	}
+
+	moves := g.State.Moves()
+	ply := g.Position().Ply()
+
+	var move *chess.Move
+	for _, m := range moves {
+		if m.Ply() == ply {
+			move = m
+		}
+	}
+
+	return move
 }
